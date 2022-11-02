@@ -9,22 +9,30 @@ body{
 }
 
 .main{
+    display: flex;
+    flex-direction: column;
     position:relative;
     text-align: center;
     align-content: center;
     background-color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
-    width: 30vw;
-    height: 75vh;
-    border-radius: 20px;
-}
-#image{
-    width: 80%;
-    height: 70%;
-    margin: 25px;
+    width: 20vw;
+    height: 60vh;
     border-radius: 20px;
 }
 
-text #bold{
+#image{
+    width: 90%;
+    height: 55%;
+    margin: 16px;
+    border-radius: 15px;
+}
+
+#bold{
     font-size: 25px;
+    font-weight: bold;
+}
+#light{
+    font-size: 15px;
+    font-weight: 100;
 }
