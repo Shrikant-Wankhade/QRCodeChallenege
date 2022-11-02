@@ -17,22 +17,24 @@ body{
     background-color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
     width: 20vw;
-    height: 60vh;
+    height: 70vh;
     border-radius: 20px;
 }
 
 #image{
     width: 90%;
-    height: 55%;
-    margin: 16px;
+    height: 58%;
+    margin: 15px;
     border-radius: 15px;
 }
 
 #bold{
     font-size: 25px;
     font-weight: bold;
+    padding:0px 15px;
 }
 #light{
     font-size: 15px;
     font-weight: 100;
+    padding:0 20px;
 }
